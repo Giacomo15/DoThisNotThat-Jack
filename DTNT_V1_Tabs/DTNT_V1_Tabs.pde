@@ -15,7 +15,8 @@ color purple = #2C08FF; //Note Night Mode Friendly, all of the blue is included
 void setup()
 {
   //Display Geometry
-  size( 600, 400 ); //fullScreen(); //displayWidth, displayHeight
+  fullScreen(); 
+  println(displayWidth, displayHeight);
   displayOrientation();
   population();
   textSetUp();
